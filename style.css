@@ -1,7 +1,76 @@
 body {
-        background-image: url('https://scontent-hbe1-1.xx.fbcdn.net/v/t1.15752-9/332870733_647747523731067_6723424095670016712_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Ym6QrzyEAZwAX8MkGuy&_nc_ht=scontent-hbe1-1.xx&oh=03_AdRYFxJQvH6rQmROJXT51UeihbvQkyFyNmOU6eP83iUMdQ&oe=64357CDB');
-        background-position: bottom;
-        background-size: 40%;
-        background-repeat: no-repeat;
-        
+        user-select: none;
+}
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 175px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #0062be;
+        transition: 0.5;
+}
+.hed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 70px;
+        display: flex;
+        justify-content: space-between;
+        justify-items: auto;
+        align-items: center;
+}
+
+.logo {
+        position: relative;
+        min-width: 70px;
+}
+header ul a li{
+        list-style: none;
+}
+.aa{
+        display: inline-block;
+        color: #fff;
+        font-weight: 600;
+        margin-left: 50px;
+        text-decoration: none;
+        margin-bottom: 30px;
+        font-size: larger;
+        text-shadow: 1px 1px 4px rgb(20, 27, 102);
+
+}
+.aaa{
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 4px rgb(20, 27, 102);
+
+        display: inline-block;
+        font-size: larger;
+        color: #fff;
+        font-weight: 600;
+        margin-left: 760px;
+        text-decoration: none;
+}
+.cont {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.text {
+        font-size: x-large;
+        color: #fff;
+        font-weight: 600;
+        margin: 20px;
+        text-shadow: 1.5px 1.5px 4px rgb(20, 27, 102);
 }
