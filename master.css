@@ -1,0 +1,158 @@
+body {        
+        padding-top: 200px;
+        padding: 10%;
+        background: linear-gradient(to right, rgb(67, 82, 88), rgba(211,204,176));
+}
+
+a:hover , h1:hover , td:hover , tr:hover , img:hover {
+        transition: 0.2s;
+        transform: scale(1.05);
+        border-width: 0px;
+}
+
+.main {
+        width: 1000px;
+        height: 500px;
+        align-self: center;
+        background-color: white;
+        border-radius: 20px;
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        padding: 35px;
+}
+.help {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+}
+.help1 {
+        text-shadow: -15px 10px 7px rgb(74, 67, 131);
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 37.5px;
+        padding: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.lalign, span {
+        font-size: 17.5px;
+        font-weight: 650;
+        color: #889abf;
+}
+html { overflow-y: scroll; }
+
+td {
+        font-size: 15;
+        font-weight: 500;
+}
+a {
+        margin-bottom: 300px;
+        margin-left: 75px;
+        transition: 0.5s;
+        text-decoration: none;
+        color: #585858;
+        text-shadow: 5px 5px 15px rgb(0, 0, 0),
+        -5px 5px 10px rgb(0, 0, 0);
+}
+
+body { 
+        background: url('https://wallpaperaccess.com/full/5651978.png');
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #889abf;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+  color: #585858;
+  padding: 22px 10px;
+  padding-bottom: 55px;
+}
+
+/** page structure **/
+#wrapper {
+  display: block;
+  width: 850px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 10px 17px;
+}
+
+#keywords {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+
+#keywords thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+#keywords thead tr th { 
+  font-weight: bold;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+#keywords thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#keywords thead tr th.headerSortUp span {
+  background-image: url('https://i.imgur.com/SP99ZPJ.png');
+}
+#keywords thead tr th.headerSortDown span {
+  background-image: url('https://i.imgur.com/RkA9MBo.png');
+}
+
+
+#keywords tbody tr { 
+  color: #555;
+}
+#keywords tbody tr td {
+  border-width: 0.07px;
+  border-color: #acc8dd;
+  border-style: solid;
+  border-radius: 0.1px;
+  text-align: center;
+  padding: 15px 10px;
+}
+#keywords tbody tr td:last-child {
+        border-width: 0.7px;
+        border-color: #acc8dd;
+        border-style: solid;
+        border-radius: 0.1px;
+        text-align: center;
+        padding: 15px 10px;
+      }
+#keywords tbody tr td.lalign {
+  text-align: left;
+}
